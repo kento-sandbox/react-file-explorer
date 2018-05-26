@@ -1,0 +1,26 @@
+{
+  "name": "react-file-explorer",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "main": "./src/main.js",
+  "dependencies": {
+    "create-react-class": "^15.6.3",
+    "electron": "^2.0.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/electron .",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "build": "react-scripts build"
+  },
+  "devDependencies": {
+    "electron-packager": "^12.1.0",
+    "redux-devtools": "^3.4.1"
+  }
+}
